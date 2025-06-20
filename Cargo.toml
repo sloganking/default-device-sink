@@ -1,6 +1,11 @@
 [package]
 name = "default-device-sink"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "A rodio sink that automatically follows the system default audio output device."
+license = "MIT"
 
 [dependencies]
+rodio = "0.17"
+cpal = "0.15"
+once_cell = "1"
